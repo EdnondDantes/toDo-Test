@@ -2,7 +2,7 @@
 
 Простое и удобное приложение для управления задачами, разработанное с использованием React, TypeScript и Redux Toolkit.
 
-**Демо:** []()
+**Демо:** [https://to-do-test-jade.vercel.app/](https://to-do-test-jade.vercel.app/)
 
 ## Основные возможности
 
