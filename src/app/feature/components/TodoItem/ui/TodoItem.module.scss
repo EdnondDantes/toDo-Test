@@ -1,0 +1,45 @@
+.TodoItem {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 12px;
+   background-color: #fff;
+   border: 1px solid #ddd;
+   border-radius: 4px;
+   margin-bottom: 8px;
+   transition: background-color 0.3s ease;
+ }
+ 
+ .TodoItem.completed {
+   background-color: #e0e0e0;
+   text-decoration: line-through;
+ }
+ 
+ .TodoItem .removeButton {
+   background-color: #ff4d4d;
+   border: none;
+   color: white;
+   padding: 6px;
+   border-radius: 4px;
+   cursor: pointer;
+   transition: background-color 0.3s ease;
+ }
+ 
+ .TodoItem .removeButton:hover {
+   background-color: #e60000;
+ }
+ 
+ .TodoItem .toggleButton {
+   background-color: #4caf50;
+   border: none;
+   color: white;
+   padding: 6px;
+   border-radius: 4px;
+   cursor: pointer;
+   transition: background-color 0.3s ease;
+ }
+ 
+ .TodoItem .toggleButton:hover {
+   background-color: #45a049;
+ }
+ 
